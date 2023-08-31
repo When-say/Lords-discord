@@ -19,9 +19,9 @@ async def on_message(message):
         return
 
     directory_name = parts[0]
-    if directory_name == "Guild 1":
+    if directory_name == "Guild_1":
         directory_path = "your directory path for guild 1"
-    elif directory_name == "Guild 2":
+    elif directory_name == "Guild_2":
         directory_path = "your directory path for guild 2"
     else:
         await message.channel.send(f"unknown guild")
